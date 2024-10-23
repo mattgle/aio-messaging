@@ -6,7 +6,6 @@ function Home() {
 
   return (
     <div className={styles.container}>
-      <p>{selectedApp.name}</p>
       <iframe
         src={selectedApp.url}
         title={selectedApp.name}
