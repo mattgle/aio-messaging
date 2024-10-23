@@ -1,13 +1,13 @@
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
+import Sidebar from './components/Sidebar/Sidebar';
 import { AppRouter } from './navigation/AppRouter';
+
+// TODO: Delete unused components like Footer and Header
 
 function App() {
   return (
     <div className="appContainer">
-      <Header />
+      <Sidebar />
       <AppRouter />
-      <Footer />
     </div>
   );
 }

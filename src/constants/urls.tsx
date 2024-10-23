@@ -1,4 +1,2 @@
-// Add App URLs here.
-export const INSTAGRAM_URL = 'https://www.instagram.com/[TODO_INGRESAR_IG]/';
-export const EMAIL_URL = '[TODO_INGRESAR_EMAIL]';
-export const WHATSAPP_URL = 'https://wa.me/[TODO_Nro_Whatsapp]';
+export const TELEGRAM_URL = 'https://web.telegram.org/k/';
+export const WHATSAPP_URL = 'https://web.whatsapp.com/';
