@@ -10,7 +10,6 @@
     }
   ],
   "extends": [
-    "next/core-web-vitals",
     "plugin:react/recommended",
     "airbnb",
     "airbnb-typescript",
@@ -38,7 +37,10 @@
         "format": null
       }
     ],
-    "prettier/prettier": ["error", { "singleQuote": true, "trailingComma": "none", "printWidth": 110, "endOfLine": "auto" }],
+    "prettier/prettier": [
+      "error",
+      { "singleQuote": true, "trailingComma": "none", "printWidth": 110, "endOfLine": "auto" }
+    ],
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
     "react/require-default-props": "off",
